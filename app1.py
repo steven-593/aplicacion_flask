@@ -35,4 +35,4 @@ def submit():
 
 if __name__ == "__main__":
    #app.run(debug=True)
-   app.run(debug=True, port=5001)  # Change 5000 to a different, unused port
+   app.run(host="0.0.0.0", port=5000, debug=True)  # Change 5000 to a different, unused port
